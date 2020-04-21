@@ -7,6 +7,7 @@ const productsRouter = require('./routes/products');
 const cartsRouter = require('./routes/carts');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true })); // Middlewae IMPL for all app.REQUEST
@@ -21,6 +22,6 @@ app.use(productsRouter);
 app.use(adminProductsRouter);
 app.use(cartsRouter);
 
-app.listen(5055, () => {
-  console.log('App listening on port 5055!');
+app.listen(port, () => {
+  console.log('App listening on port' + port);
 });
