@@ -63,7 +63,12 @@
     "id": "57dcbd79"
   },
   {
-    "items": [],
+    "items": [
+      {
+        "id": "ac3d7258",
+        "quantity": 1
+      }
+    ],
     "id": "8a5d87c6"
   }
 ]
