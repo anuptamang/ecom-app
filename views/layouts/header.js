@@ -51,7 +51,7 @@ module.exports = (username) => {
             <div class="container navbar-container">
               <div>
                 <a href="/">
-                  <h3 class="title">EComm Shop</h3>
+                  <h3 class="title">e-com store!</h3>
                 </a>
               </div>
               <div class="navbar-item">
